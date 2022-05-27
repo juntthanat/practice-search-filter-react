@@ -18,13 +18,30 @@
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 10px;
-  box-shadow: 10px 10px rgb(55, 133, 133);
+  box-shadow: 10px 10px 8px rgb(55, 133, 133);
+  
 }
 
 .search-box{
   position: relative;
-  height: 24px;
+  height: 6%;
   width: 90%;
   margin: 16px;
   background-color: white;
+  border-radius: 4px;
+}
+
+.search-box::placeholder{
+  text-align: center;
+}
+
+.result-container{
+  position: relative;
+  background-color: white;
+  height: 80%;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 4px;
+  border: 2px solid black;
 }
